@@ -2,7 +2,7 @@ import streamlit as st
 import pinecone
 from sentence_transformers import SentenceTransformer
 
-PINECONE_KEY = st.secrets["PINECONE_KEY"]  # app.pinecone.io
+PINECONE_KEY = "94b2fb5f-9a34-47be-8ec1-89d6e0b41744"  # app.pinecone.io
 
 @st.experimental_singleton
 def init_pinecone():
